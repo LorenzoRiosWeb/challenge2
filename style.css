@@ -7,7 +7,7 @@
 
 }
 body{
-    background-color: rgb(1, 13, 19);
+    background-color: var(--black);
 }
 
 li, a, button {
@@ -20,6 +20,7 @@ li, a, button {
 :root{
     --green: rgb(176, 243, 104);
     --lgblue: #83e6ff;
+    --black : rgb(1,13,19)
 }
 h1{
     color: var(--lgblue);
@@ -34,7 +35,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: rgb(1, 13, 19);
+    background-color: var(--black);
     border-bottom: solid  1px var(--green);
     font-weight: bold;
 }
@@ -60,7 +61,7 @@ header {
 button{
     padding: 9px 25px;
     background-color: var(--lgblue);
-    color: rgb(1, 13, 19);
+    color: var(--black);
     font-weight: bold;
     border: none;
     border-radius:50px;
@@ -76,27 +77,43 @@ img{
     border-bottom: solid 2px var(--green);
 }
 
-h2{
-    color: #ffffff;
-    margin-right: 20px;
-    border-right: solid 2px var(--lgblue);
-    padding: 10px;
-}
 
 aside{
-    display: flex;
+    display:inline ;
     justify-content: center;
     align-items: center;
     padding: 50px 20px 20px 20px;
     float:left;
     font-style: "Montesrrat", sans_serif;
-    background-color: rgb(1,13,19);
+    background-color: var(--black);
+}
+#Aboutme{
+    display: inline;;
+    color: #fff;
+    padding-right:10px;
+    margin-right: 10px;
+    border-right: 2px solid var(--lgblue);
+}
+.aboutmesection{
+    display: flex;
+    flex-direction: row;
+
+}
+p{
+    display: inline;
+    color: #fff;
+}
+#projects{
+    display: inline;
+    color: #fff;
+    padding-right:10px;
+    margin-right: 10px;
+    border-right: 2px solid var(--lgblue);
+}   
+
+.projectsection{
+    display: flex;
+    flex-direction: row;
 }
 
-p{
-    display:inline-flex;
-    justify-content:block;
-    font-family: "Montserrat", sans-serif;
-    color: #ffffff
-}
 
