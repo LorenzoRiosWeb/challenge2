@@ -19,10 +19,10 @@
             <ul class="navlink">
                 <li><a href="#About me">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Resumé</a></li>
+                <li><a href="#Resume">Resumé</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
+        <a class="cta" href="#Contact"><button>Contact</button></a>
     </header>
     <img src="istockphoto-1224500457-612x612.jpg" alt="coding image">
 </body>
@@ -42,14 +42,15 @@
     <div class="Contact">
         <!-- action_page.php is what is used to make a contact form for html
         the label is what the label is going to say liek First Name and input type is the boz where you would input the text. -->
+        <h2 id="Contact">Contact</h2>
         <form action="action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <input type="submit" value="Submit">
+        <ol>
+            <ul><label for="fname">First Name</label></ul>
+            <ul><input type="text" id="fname" name="firstname" placeholder="Your name.."></ul>
+            <ul><label for="lname">Last Name</label></ul>
+            <ul><input type="text" id="lname" name="lastname" placeholder="Your last name.."></ul>
+            <ul><input type="submit" value="Submit"></ul>
+        </ol>     
         </form>
     </div>
     </section>
@@ -64,6 +65,10 @@
     <h2 id="projects">Projects</h2>
     <br>
     <p>Here are some of my projects</p>
+    </section>
+    <section class="Resume">
+        <h2 id="Resume">Resumé</h2>
+        <p>Here is a link to my Resume</p>
     </section>
 </aside>
 </main>

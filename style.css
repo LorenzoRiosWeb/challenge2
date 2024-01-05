@@ -97,6 +97,7 @@ aside{
 .aboutmesection{
     display: flex;
     flex-direction: row;
+    font-size: 20px;
 
 }
 p{
@@ -114,22 +115,48 @@ p{
 .projectsection{
     display: flex;
     flex-direction: row;
+    font-size: 20px;
 }
 
 .Contact{
-    color: white;
-    margin-left:200px ;
+    background-color: var(--lgblue);
+    padding: 10px;
+    margin-left:100px ;
+    text-decoration: none;
 }
 
 input[type=text], select, textarea{
     display: flex;
-    width:50%;
+    width:100%;
     padding: 5px;
     border: 1px solid var(--green);
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    min-width: 40px;
+}
+input[type=submit]{
+    border-radius: 7px;
+    width:100%;
+    padding: 5px;
+}
+input[type=submit]:hover{
+    background-color:var(--green);
+}
+
+.Resume{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+#Resume{
+    display: inline;;
+    color: #fff;
+    padding-right:10px;
+    margin-right: 10px;
+    border-right: 2px solid var(--lgblue);
 }
   
   
