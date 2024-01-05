@@ -33,13 +33,25 @@
     <p>
         My name is Lorenzo Rios. I am an aspiring web developer who is 
         working on creating a web platform for those who want to communicate with people, 
-        play games,post goals or things they have accomplished. 
+        play games,post goals or <br>things they have accomplished. 
         I am 17 years old and am currently attending the University of 
         Utah Web Development Bootcamp. 
-        I am fluent in HTML and CSS, as those were the 2 launguages 
+        I am fluent in HTML and CSS, as those were the <br> 2 launguages 
         I first learned when I started learning programing 2 years ago.
     </p>
-    <div>Contact</div>
+    <div class="Contact">
+        <!-- action_page.php is what is used to make a contact form for html
+        the label is what the label is going to say liek First Name and input type is the boz where you would input the text. -->
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     </section>
     <br>
     <br>

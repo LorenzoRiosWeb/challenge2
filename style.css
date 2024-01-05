@@ -116,4 +116,22 @@ p{
     flex-direction: row;
 }
 
+.Contact{
+    color: white;
+    margin-left:200px ;
+}
+
+input[type=text], select, textarea{
+    display: flex;
+    width:50%;
+    padding: 5px;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+  
+
 
