@@ -97,7 +97,7 @@ aside{
 .aboutmesection{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 p{
@@ -108,21 +108,52 @@ p{
     display: inline;
     color: #fff;
     padding-right:10px;
-    margin-right: 10px;
-    border-right: 2px solid var(--lgblue);
+
+    border-bottom: 2px solid var(--lgblue);
 }   
 
 .projectsection{
     display: flex;
-    flex-direction: row;
-    font-size: 20px;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
 }
+.comingsoon{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.comingsoon img{
+    align-items: center;
+    margin: 10px;
+    border: 1px solid grey;
+    width: 550px;
+    background-color: grey;
+    box-shadow: grey;
+    padding-top:10px ;
+    padding-right:10px;
+    border-radius:50px;
+    cursor: pointer;
+}
+
 
 .Contact{
     background-color: var(--lgblue);
     padding: 10px;
     margin-left:100px ;
     text-decoration: none;
+}
+.calculator{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
 }
 
 input[type=text], select, textarea{
@@ -158,6 +189,7 @@ input[type=submit]:hover{
     margin-right: 10px;
     border-right: 2px solid var(--lgblue);
 }
+
   
   
 
